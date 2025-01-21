@@ -1,7 +1,7 @@
 baseURL = 'https://bramadityaw.github.io/blog'
 languageCode = 'en-us'
 title = 'dityaw.dump'
-theme = 'tale'
+theme = 'github.com/EmielH/tale-hugo/'
 
 [author]
   name = 'Bramaditya'
