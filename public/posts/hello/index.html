@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
+		
+		
+		
+		<meta property="og:url" content="http://localhost:1313/blog/posts/hello/">
+  <meta property="og:site_name" content="dityaw.dump">
+  <meta property="og:title" content="My First Open Source Contribution">
+  <meta property="og:description" content="Hi! And welcome to my first blog post! I hope you stick around.
+I made this blog using Hugo with the Tale theme, because I really like how it looks. I want to focus on the articles for this blog, and this theme suits that purpose.
+Surely, nothing will go wrong. &lt;– clueless">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-01-02T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-01-02T00:00:00+00:00">
+
+	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>My First Open Source Contribution &middot; dityaw.dump</title>
+
+		
+		<link rel="stylesheet" href="/blog/css/style.css">
+		<link rel="stylesheet" href="/blog/css/fonts.css">
+		
+		<link rel="icon" href="/blog/favicon.ico"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon.png">
+
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="dityaw.dump" />
+
+		<script src="/blog/js/darkmode.js"></script>
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				<a href="/blog/">
+					
+						<h2 class="nav-title">dityaw.dump</h2>
+					
+				</a>
+				<ul>
+    
+    
+</ul>
+			</div>
+		</nav>
+
+        <div id="darkModeToggle" onclick="toggleDarkMode()">
+  &#9680; 
+</div>
+
+        
+
+<main>
+	
+
+
+        <div class="post">
+		<div class="post-info">
+    <span>Written by</span>
+        
+        <br>
+        <span>on&nbsp;</span><time datetime="2025-01-02 00:00:00 &#43;0000 UTC">January 2, 2025</time>
+</div>
+
+		<h1 class="post-title">My First Open Source Contribution</h1>
+<div class="post-line"></div>
+
+		
+
+		<p>Hi! And welcome to my first blog post! I hope you stick around.</p>
+<p>I made this blog using Hugo with the Tale theme, because I really like how it looks. I want to focus on the articles for this blog, and this theme suits that purpose.</p>
+<p>Surely, nothing will go wrong. <em>&lt;&ndash; clueless</em></p>
+<p>Before I write anything, I decided to get a feel of using Hugo and test if the thing works or not. I made some dummy content and ran <code>hugo server -D</code> and got greeted by (more or less) this error.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>no such template <span style="color:#e6db74">&#34;_internal/google_analytics_async.html&#34;</span>
+</span></span></code></pre></div><p>Great! Just what I wanted.</p>
+<p>A quick internet search lead me to <a href="https://discourse.gohugo.io/t/build-error-on-v0-125-2-calling-internal-template-internal-google-analytics-async-html/49410">this post</a>.</p>
+<p>Seems like a quick fix. I just need to trim a few characters is all.</p>
+<p>A neat thing about Hugo&rsquo;s themes is that they are installed in your Hugo project as git submodules. That means the source code is available to us and finding where the error happened is just a matter of <code>grep</code>ping. I deleted the &lsquo;_async&rsquo; fragment on the url and <em>voila</em>!</p>
+<p>I realize I can contribute back to the theme and decided to make a pull request of my local changes. Thanks <a href="https://github.com/EmielH">EmielH</a> for accepting my first ever pull request!</p>
+
+		
+	</div>
+
+	<div class="pagination">
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        		<footer>
+			
+			<span>
+			&copy; <time datetime="2025-01-21 19:14:29.363993672 &#43;0700 WIB m=&#43;6997.196877157">2025</time> . Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			</span>
+		</footer>
+
+    </body>
+</html>
