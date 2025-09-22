@@ -1,0 +1,11 @@
+<section>
+    <p>Writings by R. Bramaditya. Let's see where this goes.</p>
+    {{- if .Site.Params.Links }}
+    <p>Find me in:</p>
+        {{ range $k, $v := $.Site.Params.Links }}
+            <ul>
+                <li> <a href="{{$v}}">{{ $k }}</a></li>
+            </ul>
+        {{ end }}
+    {{- end }}
+</section>

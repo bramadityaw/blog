@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'dityaw.dump'
 theme = 'tale-hugo'
 
-[author]
-  name = 'Bramaditya'
-  url = 'https://www.bramadityaw.github.io'
+[params]
+  [params.author]
+    name = 'Bramaditya'
+    url = 'https://www.bramadityaw.github.io'
+  [params.links]
+    GitHub = 'https://github.com/bramadityaw'
+    Linkedin = 'https://linkedin.com/in/r-bramaditya'
