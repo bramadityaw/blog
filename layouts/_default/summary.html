@@ -1,0 +1,19 @@
+ <div class="catalogue-item">
+     <time datetime="{{ .PublishDate }}" class="catalogue-time">{{ i18n "publishdate" . }}</time>
+     <a href="{{ .Permalink }}">
+         <h2 class="catalogue-title">{{ .Title }}</h2>
+     </a>
+     <div class="catalogue-line"></div>
+     {{ if isset .Params "tags" }}
+     <div class="catalogue-tag-list">
+         Tags:
+         {{ range $i, $e := .Params.tags }}
+         <a href="{{ $.Site.BaseURL }}/tags/{{ $e | urlize }}">{{ $e | urlize }}</a>
+         {{ end }}
+     </div>
+     {{ end }}
+
+     <p>
+         {{ if isset .Params "summary" }}{{ .Params.Summary | markdownify }}{{ else }}{{ .Summary }}{{ end }}
+     </p>
+ </div>

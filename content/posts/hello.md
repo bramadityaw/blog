@@ -3,6 +3,9 @@ date = '2025-01-02'
 draft = false
 title = 'My First Open Source Contribution'
 excerpt_separator = '<!--more-->'
+tags = [ 'open source'
+       , 'english'
+       ]
 +++
 Hi! And welcome to my first blog post! I hope you stick around.
 

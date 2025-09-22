@@ -5,14 +5,21 @@
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/tags/english/</loc>
+    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/posts/hello/</loc>
+    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/open-source/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/posts/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/categories/</loc>
-  </url><url>
     <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2025-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/</loc>
   </url>
 </urlset>
