@@ -13,7 +13,7 @@
       <link>http://localhost:1313/blog/posts/hello/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/posts/hello/</guid>
-      <description>&lt;p&gt;Hi! And welcome to my first blog post! I hope you stick around.&lt;/p&gt;&#xA;&lt;p&gt;I made this blog using Hugo with the Tale theme, because I really like how it looks. I want to focus on the articles for this blog, and this theme suits that purpose.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hi! And welcome to my first blog post! I hope you stick around.&lt;/p&gt;&#xA;&lt;p&gt;I made this blog using Hugo with the Tale theme, because I really like how it looks. I want to focus on the articles for this blog, and this theme suits that purpose.&lt;/p&gt;&#xA;&lt;p&gt;Surely, nothing will go wrong. &lt;em&gt;&amp;lt;&amp;ndash; clueless&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

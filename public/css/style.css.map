@@ -3,17 +3,17 @@
 	"file": "style.css",
 	"sourceRoot": "/home/bram/Programming/personal/blog",
 	"sources": [
-		"themes/tale/assets/scss/tale.scss",
-		"themes/tale/assets/scss/tale/_variables.scss",
-		"themes/tale/assets/scss/tale/_base.scss",
-		"themes/tale/assets/scss/tale/_code.scss",
-		"themes/tale/assets/scss/tale/_post.scss",
-		"themes/tale/assets/scss/tale/_syntax.scss",
-		"themes/tale/assets/scss/tale/_layout.scss",
-		"themes/tale/assets/scss/tale/_toc.scss",
-		"themes/tale/assets/scss/tale/_pagination.scss",
-		"themes/tale/assets/scss/tale/_catalogue.scss",
-		"themes/tale/assets/scss/tale/_disqus.scss"
+		"themes/tale-hugo/assets/scss/tale.scss",
+		"themes/tale-hugo/assets/scss/tale/_variables.scss",
+		"themes/tale-hugo/assets/scss/tale/_base.scss",
+		"themes/tale-hugo/assets/scss/tale/_code.scss",
+		"themes/tale-hugo/assets/scss/tale/_post.scss",
+		"themes/tale-hugo/assets/scss/tale/_syntax.scss",
+		"themes/tale-hugo/assets/scss/tale/_layout.scss",
+		"themes/tale-hugo/assets/scss/tale/_toc.scss",
+		"themes/tale-hugo/assets/scss/tale/_pagination.scss",
+		"themes/tale-hugo/assets/scss/tale/_catalogue.scss",
+		"themes/tale-hugo/assets/scss/tale/_disqus.scss"
 	],
 	"sourcesContent": [
 		"@import 'tale/variables';\n@import 'tale/base';\n@import 'tale/code';\n@import 'tale/post';\n@import 'tale/syntax';\n@import 'tale/layout';\n@import 'tale/toc';\n@import 'tale/pagination';\n@import 'tale/catalogue';\n@import 'tale/disqus';\n",

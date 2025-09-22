@@ -1,6 +1,6 @@
 +++
 date = '2025-01-02'
-draft = true
+draft = false
 title = 'My First Open Source Contribution'
 excerpt_separator = '<!--more-->'
 +++
