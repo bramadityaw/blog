@@ -40,8 +40,6 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
         run: sudo snap install dart-sass
-      - name: Add Tale theme as submodule
-        run: git submodule add https://github.com/EmielH/tale-hugo/
       - name: Checkout
         uses: actions/checkout@v4
         with:
